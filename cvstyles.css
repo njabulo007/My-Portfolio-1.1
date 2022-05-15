@@ -1,0 +1,28 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(27, 27, 46) !important;
+}
+
+#heading > h1{
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#summary{
+    font-family: 'Fira Code', monospace;
+    color: yellow !important;
+}
+
+#yes{
+    color:red !important;
+}
+
+h5{
+    display: inline;
+    color: rgb(0, 195, 255);
+    font-size: 17px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}

@@ -1,0 +1,47 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box!important;
+    background-color: rgb(27, 27, 46) !important;
+    
+}
+
+#img_div{
+    margin-top: 280px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.349),rgba(0, 0, 255, 0.479));
+    border: 30px solid #FFC107;
+    position: relative;
+    height: 200px;
+    width: 700px;
+}
+nav{
+    margin-top: 100px;
+    background-image: url(images/galaxy.jpg);
+    background-repeat: no-repeat;
+}
+
+img{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+li{
+    margin-top: 130px;
+}
+
+h1{
+    font-family: 'IBM Plex Serif', serif;
+    color:white;
+    border-bottom-color: #FFC107;
+    border-bottom: 1px solid #FFC107;
+
+}
+
+li > button > a{
+    color: white !important;
+}
+li > button > a:hover{
+    color: black !important;
+}
