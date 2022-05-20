@@ -26,6 +26,13 @@ img{
     height: 100%;
     width: 100%;
 }
+#contruction_picture > img{
+    height: 70px;
+    width: 70px;
+    opacity: 80%;
+    display: inline-block;
+    position: relative;
+}
 
 li{
     margin-top: 130px;
@@ -65,4 +72,13 @@ li > button > a:hover{
     }
 }
 
+html{
+    position: relative;
+}
 
+#construction{
+    position: absolute;
+    top: 0;
+    color: white;
+    display: inline-block;
+}
