@@ -4,6 +4,7 @@ body,html {
     box-sizing: border-box;
     background-color: rgb(27, 27, 46) !important;
     user-select: none;
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -13,8 +14,23 @@ h1{
     font-weight: 700;
 }
 #aboutmetext{
-    margin-top: 150px;
+    margin-top: 130px;
 }
+
+@media screen and (max-width: 320px) {
+    #aboutmetext  {
+        font-size:6vw;
+  
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #aboutmetext  {
+        font-size:6vw;
+  
+    }
+}
+
 section{
     height: 100vh;
 }
@@ -56,5 +72,87 @@ section > div > h2{
     font-size: 50px;
     font-weight: 700;
     margin: 150px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+@media screen and (max-width: 320px) {
+    #aboutme_button  {
+        height: 44px;
+    }
+}
+@media screen and (max-width: 360px) {
+    #aboutme_button  {
+        height: 
+        44px;
+    }
 }
 
+#carousel{
+    height:500px;
+}
+
+.carousel-inner > .carousel-item > img{
+    height: 500px;
+}
+
+a{
+    color: rgb(6, 72, 252) !important;
+    text-decoration: none;
+}
+#njabulo3{
+    height: 500px;
+    text-align: center;
+}
+#njabulo3_img{
+    height: 100%;
+}
+#images_div, #images_div2{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+#images_div > a > img{
+    margin-top: 100px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#images_div2 > a > img{
+    margin-top: 100px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#howtofindme{
+    margin: 0;
+}
+@media screen and (max-width: 320px) {
+    li  {
+        width: 61px !important;
+    }
+}
+@media screen and (max-width: 320px) {
+    a  {
+        font-size:2vw;    
+    }
+}
+@media screen and (max-width: 320px) {
+    button  {
+        width: 63px !important;
+        word-wrap: normal;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    li  {
+        width: 68px !important;
+    }
+}
+@media screen and (max-width: 360px) {
+    a  {
+        font-size:2vw;    
+    }
+}
+@media screen and (max-width: 360px) {
+    button  {
+        width: 66px !important;
+        word-wrap: normal;
+    }
+}

@@ -45,3 +45,24 @@ li > button > a{
 li > button > a:hover{
     color: black !important;
 }
+
+ @media screen and (max-width: 320px) {
+    button {
+        width: 74px !important;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    a  {
+        font-size: 10px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 320px) {
+    #aboutme_button  {
+        height: 44px;
+    }
+}
+
+
