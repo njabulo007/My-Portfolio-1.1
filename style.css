@@ -1,23 +1,20 @@
-body, html{
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box!important;
-    background-color: rgb(27, 27, 46) !important;
-    
+    box-sizing: border-box !important;
+    background-color: rgb(6, 6, 19) !important;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-#img_div{
-    margin-top: 280px;
-    background-image: linear-gradient(rgba(255, 0, 0, 0.349),rgba(0, 0, 255, 0.479));
-    border: 30px solid #FFC107;
-    position: relative;
-    height: 200px;
-    width: 700px;
+
+.nav-link{
+    word-wrap: normal;
 }
-nav{
-    margin-top: 100px;
-    background-image: url(images/galaxy.jpg);
-    background-repeat: no-repeat;
+.nav-item{
+    word-break: normal;
 }
 
 img{
@@ -26,23 +23,24 @@ img{
     height: 100%;
     width: 100%;
 }
-#contruction_picture > img{
-    height: 70px;
-    width: 70px;
-    opacity: 80%;
-    display: inline-block;
-    position: relative;
+
+
+
+.intro{
+    margin-top: 210px;
+    animation: tilt 5 1 1 iteration-count direction fill-mode;
+    
 }
 
-li{
-    margin-top: 130px;
+@keyframes tilt {
+    rotate{
+        
+    }
 }
-
 h1{
     font-family: 'IBM Plex Serif', serif;
-    color:white;
-    border-bottom-color: #FFC107;
-    border-bottom: 1px solid #FFC107;
+    color: white; 
+    text-align: center;
 
 }
 
@@ -79,6 +77,17 @@ html{
 #construction{
     position: absolute;
     top: 0;
-    color: white;
-    display: inline-block;
+    color: rgba(255, 0, 0, 0.437);
+    display: none;
+}
+.image{
+    opacity: 90%;
+    backdrop-filter: blur(3px);
+}
+
+#section2{
+    background-color: white!important;
+    width: 50%;
+    height: 400px;
+    z-index: 999;
 }

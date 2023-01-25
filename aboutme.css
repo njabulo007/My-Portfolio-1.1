@@ -2,7 +2,7 @@ body,html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(27, 27, 46) !important;
+    background-color: rgb(6, 6, 19) !important;
     user-select: none;
     scroll-behavior: smooth;
 }
