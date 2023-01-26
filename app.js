@@ -1,22 +1,15 @@
-const developer = document.getElementById('developer');
+function flashtext(ele,col) {
+    var tmpColCheck = document.getElementById( ele ).style.color;
 
-
-
-
-developer.addEventListener('click', change2Blue);
-
-function change2Blue(){
-developer.style.color = 'blue';
-if (developer.style.color = 'blue'){
-    developer.addEventListener('click', change2Red);
-}
-}
-
-function change2Red(){
-    developer.style.color = 'red'
-
-    if (developer.style.color = 'red'){
-        developer.addEventListener('click', change2Blue);
-    }
-
-}
+      if (tmpColCheck === 'white') {
+        document.getElementById( ele ).style.color = col;
+      } else {
+        document.getElementById( ele ).style.color = 'white';
+      }
+    } 
++
+    setInterval(function() {
+        flashtext('firstCircle','red');
+        flashtext('secondCircle','yellow');
+        flashtext('flashingtext3','green');
+    }, 700 ); //set an interval timer up to repeat the function

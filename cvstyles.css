@@ -1,8 +1,15 @@
-body,html {
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(6, 6, 19) !important;
+    box-sizing: border-box !important;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    min-height: 500px;
+    backdrop-filter: blur(10px);
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #heading > h1{
@@ -27,19 +34,33 @@ h5{
     padding: 0 !important;
     margin-left: 2rem !important;
 }
-@media screen and (max-width: 320px) {
-    li  {
-        width: 61px !important;
-    }
-}
+
 @media screen and (max-width: 320px) {
     a  {
-        font-size:2vw;    
+        font-size:10px;    
     }
 }
 @media screen and (max-width: 320px) {
     button  {
-        width: 63px !important;
-        word-wrap: normal;
+        width: 74px !important;
+        
     }
+}
+
+li > button > a{
+    color: white !important;
+}
+li > button > a:hover{
+    color: black !important;
+}
+
+#secondCircle{
+    border: 1px solid rgb(255, 230, 3);
+    padding: 5px; 
+    border-radius: 75px;
+    background-color: rgb(255, 230, 3);
+}
+
+h2{
+    font-family: 'IBM Plex Serif', serif;
 }
