@@ -1,15 +1,20 @@
-function flashtext(ele,col) {
-    var tmpColCheck = document.getElementById( ele ).style.color;
+   /*let lazyImages = [].slice.call(document.querySelectorAll(".lazy"));
+    if ("IntersectionObserver" in window) {
+        let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    let lazyImage = entry.target;
+                    lazyImage.src = lazyImage.dataset.src;
+                    lazyImage.srcset = lazyImage.dataset.srcset;
+                    lazyImage.classList.remove("lazy");
+                    lazyImageObserver.unobserve(lazyImage);
+                }
+            });
+        });
+        lazyImages.forEach(function(lazyImage) {
+            lazyImageObserver.observe(lazyImage);
+        });
+    } else {
+    }*/
 
-      if (tmpColCheck === 'white') {
-        document.getElementById( ele ).style.color = col;
-      } else {
-        document.getElementById( ele ).style.color = 'white';
-      }
-    } 
-+
-    setInterval(function() {
-        flashtext('firstCircle','red');
-        flashtext('secondCircle','yellow');
-        flashtext('flashingtext3','green');
-    }, 700 ); //set an interval timer up to repeat the function
+    

@@ -3,13 +3,30 @@ body{
     padding: 0;
     box-sizing: border-box !important;
     background-image: url(images/background.jpg);
-    background-size: cover;
-    min-height: 500px;
+    height: 100%;
     backdrop-filter: blur(10px);
-    scroll-behavior: smooth;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#row{
+    height:80vh;
+}
+
+section > div > div > img{
+    border: 2px solid yellow;
 }
 
 #heading > h1{
