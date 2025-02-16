@@ -93,3 +93,29 @@ html{
 h2{
     font-family: 'IBM Plex Serif', serif;
 }
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+/* Initially, the intro text is hidden */
+#introText {
+    opacity: 0;
+}
+
+/* Add a shadow to the navbar when scrolled */
+#navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar link hover effect */
+.navbar-nav .nav-item .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f8b400;
+}
