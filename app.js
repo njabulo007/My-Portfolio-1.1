@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // Scroll animation on page load (fade-in effect for the intro text)
-    const introText = document.getElementById('intro');
+    const introText = document.getElementById('introText');
     setTimeout(() => {
         introText.classList.add('fade-in');
     }, 500); // Delay for fade-in effect

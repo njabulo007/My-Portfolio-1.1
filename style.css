@@ -101,7 +101,7 @@ h2{
 }
 
 /* Initially, the intro text is hidden */
-#intro {
+#introText {
     opacity: 0;
 }
 
