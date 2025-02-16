@@ -94,18 +94,22 @@ h2{
     font-family: 'IBM Plex Serif', serif;
 }
 
-/* Fade-in animation */
-.fade-in {
-    opacity: 1;
+/* Intro Text Style */
+#introText {
+    opacity: 0;  /* Initially hidden */
+    font-size: 3rem;  /* Adjust font size */
+    text-align: center;
+    color: #333; /* Ensure text is visible */
+    margin-top: 100px;  /* Add space from the top */
     transition: opacity 2s ease-in-out;
 }
 
-/* Initially, the intro text is hidden */
-#introText {
-    opacity: 0;
+/* Fade-in Effect */
+.fade-in {
+    opacity: 1;  /* Make the text visible */
 }
 
-/* Add a shadow to the navbar when scrolled */
+/* Navbar background color change on scroll */
 #navbar.scrolled {
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

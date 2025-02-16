@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Scroll animation on page load (fade-in effect for the intro text)
     const introText = document.getElementById('introText');
     setTimeout(() => {
-        introText.classList.add('fade-in');
+        introText.classList.add('fade-in');  // This will trigger the fade-in
     }, 500); // Delay for fade-in effect
 
     // Navbar background change on scroll
@@ -29,3 +29,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
